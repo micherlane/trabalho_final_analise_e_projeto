@@ -63,16 +63,12 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Data,Tipo,Devolvido,VendedorId,TipoDePagamentoId,ClienteId")] NotaDaVenda notaDaVenda)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(notaDaVenda);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["ClienteId"] = new SelectList(_context.Cliente, "Id", "Id", notaDaVenda.ClienteId);
-            ViewData["TipoDePagamentoId"] = new SelectList(_context.TipoDePagamento, "Id", "Discriminator", notaDaVenda.TipoDePagamentoId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedor, "Id", "Id", notaDaVenda.VendedorId);
-            return View(notaDaVenda);
+
+            _context.Add(notaDaVenda);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+
         }
 
         // GET: NotaDaVendas/Edit/5
@@ -106,30 +102,25 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+
+            try
             {
-                try
-                {
-                    _context.Update(notaDaVenda);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!NotaDaVendaExists(notaDaVenda.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                _context.Update(notaDaVenda);
+                await _context.SaveChangesAsync();
             }
-            ViewData["ClienteId"] = new SelectList(_context.Cliente, "Id", "Id", notaDaVenda.ClienteId);
-            ViewData["TipoDePagamentoId"] = new SelectList(_context.TipoDePagamento, "Id", "Discriminator", notaDaVenda.TipoDePagamentoId);
-            ViewData["VendedorId"] = new SelectList(_context.Vendedor, "Id", "Id", notaDaVenda.VendedorId);
-            return View(notaDaVenda);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!NotaDaVendaExists(notaDaVenda.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: NotaDaVendas/Delete/5

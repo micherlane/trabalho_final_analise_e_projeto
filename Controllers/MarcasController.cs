@@ -56,13 +56,11 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Descricao")] Marca marca)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(marca);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(marca);
+
+            _context.Add(marca);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: Marcas/Edit/5

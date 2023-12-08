@@ -56,13 +56,11 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome")] Transportadora transportadora)
         {
-            if (ModelState.IsValid)
-            {
+           
                 _context.Add(transportadora);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(transportadora);
+           
         }
 
         // GET: Transportadoras/Edit/5
@@ -93,8 +91,7 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+           
                 try
                 {
                     _context.Update(transportadora);
@@ -112,8 +109,7 @@ namespace micherlane.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(transportadora);
+           
         }
 
         // GET: Transportadoras/Delete/5

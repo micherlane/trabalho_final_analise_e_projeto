@@ -56,13 +56,11 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("NumeroDoCartao,Bandeira,Id,NomeDoCobrado,InformacoesAdicionais,Discriminator")] PagamentoComCartao pagamentoComCartao)
         {
-            if (ModelState.IsValid)
-            {
+          
                 _context.Add(pagamentoComCartao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(pagamentoComCartao);
+          
         }
 
         // GET: PagamentoComCartaos/Edit/5
@@ -93,8 +91,7 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            
                 try
                 {
                     _context.Update(pagamentoComCartao);
@@ -112,8 +109,7 @@ namespace micherlane.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            return View(pagamentoComCartao);
+           
         }
 
         // GET: PagamentoComCartaos/Delete/5

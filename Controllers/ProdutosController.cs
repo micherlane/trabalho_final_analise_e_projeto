@@ -59,14 +59,12 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Descricao,Quantidade,Preco,MarcaId")] Produto produto)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Add(produto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id", produto.MarcaId);
-            return View(produto);
+            
+           
         }
 
         // GET: Produtos/Edit/5
@@ -98,8 +96,7 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+           
                 try
                 {
                     _context.Update(produto);
@@ -117,9 +114,7 @@ namespace micherlane.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id", produto.MarcaId);
-            return View(produto);
+           
         }
 
         // GET: Produtos/Delete/5

@@ -56,13 +56,11 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Banco,NomeDoBanco,Id,NomeDoCobrado,InformacoesAdicionais,Discriminator")] PagamentoComCheque pagamentoComCheque)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(pagamentoComCheque);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(pagamentoComCheque);
+
+            _context.Add(pagamentoComCheque);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: PagamentoComCheques/Edit/5
@@ -93,27 +91,25 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+
+            try
             {
-                try
-                {
-                    _context.Update(pagamentoComCheque);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!PagamentoComChequeExists(pagamentoComCheque.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                _context.Update(pagamentoComCheque);
+                await _context.SaveChangesAsync();
             }
-            return View(pagamentoComCheque);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!PagamentoComChequeExists(pagamentoComCheque.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return RedirectToAction(nameof(Index));
+
         }
 
         // GET: PagamentoComCheques/Delete/5

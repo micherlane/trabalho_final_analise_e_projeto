@@ -59,14 +59,11 @@ namespace micherlane.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,DataLimite,Valor,Pago,NotaDaVendaId")] Pagamento pagamento)
         {
-            if (ModelState.IsValid)
-            {
+            
                 _context.Add(pagamento);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["NotaDaVendaId"] = new SelectList(_context.NotaDaVenda, "Id", "Id", pagamento.NotaDaVendaId);
-            return View(pagamento);
+           
         }
 
         // GET: Pagamentos/Edit/5
@@ -98,8 +95,7 @@ namespace micherlane.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            
                 try
                 {
                     _context.Update(pagamento);
@@ -117,9 +113,7 @@ namespace micherlane.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["NotaDaVendaId"] = new SelectList(_context.NotaDaVenda, "Id", "Id", pagamento.NotaDaVendaId);
-            return View(pagamento);
+          
         }
 
         // GET: Pagamentos/Delete/5
