@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50ZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,12 +43,192 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Marcas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFyY2FzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Marcas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFyY2FzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Marcas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFyY2FzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Marcas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFyY2FzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Marcas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFyY2FzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/NotaDaVendas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90YURhVmVuZGFzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/NotaDaVendas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90YURhVmVuZGFzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/NotaDaVendas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90YURhVmVuZGFzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/NotaDaVendas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90YURhVmVuZGFzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/NotaDaVendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTm90YURhVmVuZGFzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCartaos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2FydGFvcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCartaos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2FydGFvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCartaos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2FydGFvcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCartaos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2FydGFvcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCartaos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2FydGFvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCheques/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2hlcXVlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCheques/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2hlcXVlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCheques/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2hlcXVlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCheques/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2hlcXVlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/PagamentoComCheques/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvQ29tQ2hlcXVlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Pagamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Pagamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Pagamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Pagamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Pagamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFnYW1lbnRvcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Produtos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Produtos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHV0b3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Transportadoras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNwb3J0YWRvcmFzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Transportadoras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNwb3J0YWRvcmFzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Transportadoras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNwb3J0YWRvcmFzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Transportadoras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNwb3J0YWRvcmFzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Transportadoras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhbnNwb3J0YWRvcmFzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Vendedors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGVkb3JzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Vendedors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGVkb3JzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Vendedors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGVkb3JzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Vendedors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGVkb3JzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/Vendedors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZGVkb3JzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/micherlane/Documentos/ADS/AnaliseEProjeto/trabalho_final_analise_e_projeto/Views/_ViewImports.cshtml]

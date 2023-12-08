@@ -27,5 +27,15 @@ namespace micherlane.Models
         public DbSet<PagamentoComCheque> PagamentoComCheque {get; set;}
 
         public DbSet<NotaDaVenda> NotaDaVenda {get; set;}
+
+        public DbSet<Item> Item { get; set; }
+
+         protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TipoDePagamento>()
+                .HasMany(tipo => tipo.NotaDaVendas)
+                .WithOne(nota => nota.TipoDePagamento)
+                .HasForeignKey(nota => nota.TipoDePagamentoId);
+        }
     }
 }

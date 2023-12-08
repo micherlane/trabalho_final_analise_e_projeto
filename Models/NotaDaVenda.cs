@@ -5,7 +5,7 @@ namespace micherlane.Models {
         [Display(Name="Código")]
         public int Id {get; set;}
 
-        public DateOnly Data {get; set;}
+        public DateTime Data {get; set;}
 
         public bool Tipo {get; set;}
 

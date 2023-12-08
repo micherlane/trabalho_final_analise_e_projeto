@@ -11,6 +11,9 @@ namespace micherlane.Models {
         [Display(Name="Informações Adicionais")]
         public string? InformacoesAdicionais {get; set;}
 
+        public string Discriminator { get; set; }
+        
+
         public ICollection<NotaDaVenda> NotaDaVendas {get;} = new List<NotaDaVenda>();
     }
 }
