@@ -11,14 +11,17 @@ namespace micherlane.Models {
 
         public bool? Devolvido {get; set;}
 
+        [Display(Name="Vendedor")]
         public int VendedorId {get; set;}
         public Vendedor Vendedor {get; set;} = null!;
 
         public ICollection<Pagamento> Pagamentos {get;} = new List<Pagamento>();
-
+        
         public int TipoDePagamentoId {get; set;}
+        
+        [Display(Name="Forma de Pagamento")]
         public TipoDePagamento TipoDePagamento {get; set; } = null!;
-
+        [Display(Name="Cliente")]
         public int ClienteId {get; set;}
         public Cliente Cliente {get; set;} = null!;
 
