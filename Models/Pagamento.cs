@@ -9,5 +9,8 @@ namespace micherlane.Models
         public DateOnly DataLimite {get; set;}
         public double Valor {get; set;}
         public bool Pago {get; set;}
+
+        public int NotaDaVendaId {get; set;}
+        public NotaDaVenda NotaDaVenda {get; set;} = null!;
     }
 }

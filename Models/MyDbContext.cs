@@ -25,5 +25,7 @@ namespace micherlane.Models
         public DbSet<PagamentoComCartao> PagamentoComCartao {get; set;}
 
         public DbSet<PagamentoComCheque> PagamentoComCheque {get; set;}
+
+        public DbSet<NotaDaVenda> NotaDaVenda {get; set;}
     }
 }

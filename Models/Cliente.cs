@@ -7,5 +7,7 @@ namespace micherlane.Models
         public int Id {get; set;}
 
         public string? Nome {get; set;}
+
+        public ICollection<NotaDaVenda> NotaDaVendas {get;} = new List<NotaDaVenda>();
     }
 }
