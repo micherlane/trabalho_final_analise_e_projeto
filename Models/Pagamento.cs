@@ -6,7 +6,7 @@ namespace micherlane.Models
         [Display(Name="Código")]
         public int Id {get; set;}
         [Display(Name="Data Limite")]
-        public DateOnly DataLimite {get; set;}
+        public DateTime DataLimite {get; set;}
         public double Valor {get; set;}
         public bool Pago {get; set;}
 
