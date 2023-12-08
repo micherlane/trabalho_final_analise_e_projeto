@@ -50,9 +50,9 @@ namespace micherlane.Controllers
         // GET: NotaDaVendas/Create
         public IActionResult Create()
         {
-            ViewData["ClienteId"] = new SelectList(_context.Cliente, "Id", "Id");
+            ViewData["ClienteId"] = new SelectList(_context.Cliente, "Id", "Nome");
             ViewData["TipoDePagamentoId"] = new SelectList(_context.TipoDePagamento, "Id", "Discriminator");
-            ViewData["VendedorId"] = new SelectList(_context.Vendedor, "Id", "Id");
+            ViewData["VendedorId"] = new SelectList(_context.Vendedor, "Id", "Nome");
             return View();
         }
 
