@@ -26,5 +26,7 @@ namespace micherlane.Models {
         public Cliente Cliente {get; set;} = null!;
 
         public ICollection<Transportadora> Transportadoras {get;} = new List<Transportadora>();
+
+        public ICollection<Item> Items {get;} = new List<Item>();
     }
 }

@@ -13,5 +13,7 @@ namespace micherlane.Models
         [Display(Name = "Código do produto")]
         public int ProdutoId {get; set;}
         public Produto Produto {get; set;} = null!;
+
+        public ICollection<NotaDaVenda> NotaDaVendas {get;} = new List<NotaDaVenda>();
     }
 }
