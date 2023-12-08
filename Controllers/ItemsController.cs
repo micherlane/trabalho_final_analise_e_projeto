@@ -48,7 +48,7 @@ namespace micherlane.Controllers
         // GET: Items/Create
         public IActionResult Create()
         {
-            ViewData["ProdutoId"] = new SelectList(_context.Produto, "Id", "Id");
+            ViewData["ProdutoId"] = new SelectList(_context.Produto, "Id", "Descricao");
             return View();
         }
 
