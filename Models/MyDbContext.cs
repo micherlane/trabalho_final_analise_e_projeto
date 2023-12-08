@@ -19,5 +19,11 @@ namespace micherlane.Models
         public DbSet<Transportadora> Transportadora {get; set;}
 
         public DbSet<Vendedor> Vendedor {get; set;}
+
+        public DbSet<TipoDePagamento> TipoDePagamento {get; set;}
+
+        public DbSet<PagamentoComCartao> PagamentoComCartao {get; set;}
+
+        public DbSet<PagamentoComCheque> PagamentoComCheque {get; set;}
     }
 }
