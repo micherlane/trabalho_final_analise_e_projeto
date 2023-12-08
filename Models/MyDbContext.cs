@@ -11,5 +11,13 @@ namespace micherlane.Models
         public DbSet<Marca> Marca {get; set;}
 
         public DbSet<Produto> Produto {get; set;}
+
+        public DbSet<Cliente> Cliente {get; set;}
+
+        public DbSet<Pagamento> Pagamento {get; set;}
+
+        public DbSet<Transportadora> Transportadora {get; set;}
+
+        public DbSet<Vendedor> Vendedor {get; set;}
     }
 }
