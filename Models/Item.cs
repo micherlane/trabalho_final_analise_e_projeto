@@ -10,6 +10,7 @@ namespace micherlane.Models
 
         public int Quantidade {get; set;}
 
+        [Display(Name = "Código do produto")]
         public int ProdutoId {get; set;}
         public Produto Produto {get; set;} = null!;
     }
